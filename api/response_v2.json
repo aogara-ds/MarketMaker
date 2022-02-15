@@ -1,0 +1,24 @@
+{
+    "customer": {
+        "user": "Example User Name",
+        "account": "Example User Company Account",
+        "request_time": "2022-01-10-12:00"
+    },
+
+    "route": {
+        "address_a": "3400 S Figueroa Street, Los Angeles, California 90089", 
+        "address_b": "1129 Poli St, Ventura, California, 93001, United States",
+        "priority_status": "Scheduled",
+        "pickup_time": "2022-01-12-9:00",
+        "vehicle_type": "Pickup Truck"
+    },
+
+    "response": {
+        "customer_price": 100,
+        "driver_price": 60,
+        "customer_probability": 0.10,
+        "completion_probability": 0.75,
+        "expected_profit": 3,
+        "bounty_order": ["Driver C", "Driver D", "Driver B", "Driver A"]
+    }
+}

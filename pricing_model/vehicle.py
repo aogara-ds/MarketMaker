@@ -56,6 +56,13 @@ class Vehicle:
         Hardcodes values for vehicle attributes. 
         To be replaced by pricing DB query to vehicles table. 
 
+        https://fuelandtiresaver.com/wp-content/uploads/2020/03/Zoepf_The-Economics-of-RideHialing_OriginalPdfFeb2018.pdf
+
+        * 0.10 is more than 90% of calculated depreciation rates for the Uber fleet. 
+        * Fuel efficiency ($ / mile) is a normal distribution, mean of 12 SD 5. 
+
+
+
         """
 
         self.mpg = 25

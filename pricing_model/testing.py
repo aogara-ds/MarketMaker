@@ -10,8 +10,8 @@ from objective import Objective
 # Initialize the Objective class for a transaction
 transaction = {'customer_price': 100, 
                'driver_price': 60,
-               'bid_probability': .70, 
-               'completed_probability': .95}
+               'bid_probability': .20, 
+               'completed_probability': .80}
 
 obj = Objective(transaction)
 
