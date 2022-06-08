@@ -11,6 +11,7 @@ The model is built on seven data structures:
 * __Objective:__ The algorithm is designed for three potential objective functions:
   1. _Cost-Plus Pricing_: Drivers are paid an hourly target take-home wage. Profit is fixed. The customer price is driver payout plus profit.  
   2. _Constrained Profit Maximization_: Maximizes expected profit by optimizing customer price and driver payout, subject to constraints on prices, wages, and profit. Requires estimation of the price elasticities of supply and demand. Expected profit is defined as:
-     $$ E(Profit) = (Customer Price - Driver Payout) * P(Customer Bid | Customer Price) * P(Driver Fulfillment | Customer Bid, Driver Payout)$$
+     $$ \mathbb{E}(Profit) = (Customer Price - Driver Payout) * P(Customer Bid | Customer Price)$$
+                   $$ * P(Driver Fulfillment | Customer Bid, Driver Payout)$$
   3. _Total Surplus Maximization_: Maximizes the sum of profit, driver surplus, and customer surplus. _Preferred long-run objective._ 
 * __Optimizer:__ Calculates the optimal customer price and driver payout for a given request. 
